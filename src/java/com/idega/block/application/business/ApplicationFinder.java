@@ -1,5 +1,5 @@
 /*
- * $Id: ApplicationFinder.java,v 1.22 2004/06/05 06:16:42 aron Exp $
+ * $Id: ApplicationFinder.java,v 1.23 2006/08/15 15:15:27 palli Exp $
  *
  * Copyright (C) 2001 Idega hf. All Rights Reserved.
  *
@@ -102,7 +102,7 @@ public class ApplicationFinder {
   	return null;
   }
 
-  private static Collection listOfApplicationHolders(Collection lApplications,Collection lApplicants){
+  /*private static Collection listOfApplicationHolders(Collection lApplications,Collection lApplicants){
     Vector V = null;
     if(lApplicants != null){
       int len = lApplicants.size();
@@ -130,7 +130,7 @@ public class ApplicationFinder {
       }
     }
     return V;
-  }
+  }*/
 
   private static Collection listOfHolders(Collection lApplications,Collection lApplicants){
     Vector V = null;
